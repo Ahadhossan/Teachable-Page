@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.menu-button {
+}
+
+.menu-button span {
+  display: block;
+  width: 32px;
+  height: 3px;
+  background-color: #232223;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.background-green {
+  background-color: #21cd9c;
+}
+
+.text-green {
+  color: #21cd9c;
+}
+
+.dark-green {
+  color: #1b4843;
+}
+
+.dark-bg-green {
+  background-color: #1b4843;
+}
+
+.tabs {
+  @apply w-3 h-3 bg-white bg-opacity-20 rounded-full cursor-pointer;
+}
+
+.active {
+  @apply bg-opacity-100;
+}
